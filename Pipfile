@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+black = "*"
+ipympl = "*"
+jupyterlab = "*"
+matplotlib = "*"
+seaborn = "*"
+geopandas = "*"
+openpyxl = "*"
+mapclassify = "*"
+jupyter_bokeh = "*"
+bokeh = "*"
+
+
+[dev-packages]
+jupyter-bokeh = "*"
+click = "*"
+isort = "*"
+black = ">18.*"
+
+[requires]
+python_version = "3.8"
