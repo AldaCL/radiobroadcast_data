@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Análisis de datos abiertos de Radiodifusión en México 📈
 
-You can use the [editor on GitHub](https://github.com/AldaCL/radiobroadcast_data/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+En el presente repositorio se encuentran *Jupyter Notebooks* en las que se realizan análisis de datos del servicio de Radiodifusión en México. Esta serie de *Notebooks* tienen el objetivo de abarcar temas como **Radiodifusión Sonora en AM y FM** y  **Televisión Digital Terrestre (TDT)**  como los dos servicios principales, pero al mismo tiempo, exponer tecnicidades sobre el análisis de datos, visualización de datos así como el uso en conjunto  de bibliotecas enfocadas a tratar datos georreferenciados con el objetivo de aproximarse e interpretar los datos para generar y exponer información importante. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+El primera instancia, se busca una aproximación enfocada en el impacto de población, es decir, en las coberturas; la ubicación y mapeo de las coberturas y concentraciones de las estaciones de Radiodifusión en México; así como darle sentido e interpretación en la dimensión social y demográfica. 
 
-### Markdown
+Estas *notebooks* harán uso de tecnicidades, que, para quién resulte interesante, serán expuestas a mayor detalle en documentos posteriores , tales como análisis de datos, algoritmos de optimización para visualización de datos, datos georreferenciados y detalles sobre el tratamiento de datos con *Python*.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Descarga, instalación y funcionamiento 🐱‍👤
 
-- Bulleted
-- List
+Este repositorio se encuentra sincronizado con un contenedor de *Docker* con el objetivo de no generar conflictos con las múltiples dependencias utilizadas; por lo tanto es altamente aconsejable que se cuente con *Docker* instalado.
+Por otra parte, los datos empleados en en el análisis son **datos abiertos** (más adelante se listarán las fuentes, así como la estructura de los datos y cómo debes importarlos), por lo que únicamente se menciona la estructura de las carpetas de la forma como podrás organizar los datos, o bien puedes organizarlos a tu preferencia configurando el código debidamente. 
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## TLDR
+Abra una ventana de *Windows PowerShell* en la ruta en la que deseas descargar e iniciar el entorno; a continuación:
 
-[Link](url) and ![Image](src)
-```
+ 1. Copie y pegue:  `git clone https://github.com/AldaCL/Radio_jupyter`
+ 2. Diríjase al directorio descargado con: `cd Radio_jupyter` 
+ 3. Inicialice el contenedor de *Docker* con `docker-compose up`
+ 4. Verá en la ventana, una dirección de red local que comienza con `http:\\127.0.0.1:8888:8888` seguido de un token, copia y pega todo en una ventana del navegador.
+ 5. Asegúrese  de  que los datos de coberturas y los datos de población se encuentran en su lugar y reinicié el *kernel* de la *Notebook* preferida.
+ 6. *voilá*  🐱‍🏍
+  
+# Lista de contenidos y guía: 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+ 1. [Análisis de datos de Radiodifusión Sonora en AM  y FM](#radio)
+ 2. Análisis de datos de Radiodifusión de Televisión Digital Terrestre (TDT)
+ 3. Algoritmos para clasificación y visualización de datos
+ 4. Interpretación de datos en la dimensión de las telecomunicaciones y las audiencias. *¿Qué nos dicen?*
+ 5. Principios de datos georreferenciados con *Geopandas*
+ 6. Principios técnicos sobre el tratamiento de datos con *Python*
+ 7. ***Caso de uso : Análisis de Must Carry/Must Offer (Repositorio y datos privados)***
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AldaCL/radiobroadcast_data/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
