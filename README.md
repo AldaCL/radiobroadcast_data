@@ -15,10 +15,10 @@ Este repositorio, con
 ## TLDR
 Abra una ventana de *Windows PowerShell* en la ruta en la que deseas descargar e iniciar el entorno; a continuación:
 
-   1. Copie y pegue:  `git clone https://github.com/AldaCL/Radio_jupyter`
-    2. Diríjasé al directorio descargado con: `cd Radio_jupyter` 
-    3. Inicialice el contenedor de *Docker* con `docker-compose up`
-    4. Verá en la ventana, una dirección de red local que comienza con `http:\\127.0.0.1:8888:8888` seguido de un token, copia y pega todo en una ventana del navegador.
-    5. Asegúrese  de  que los datos de coberturas y los datos de población se encuentran en su lugar y reinicié el *kernel* de la *Notebook* preferida.
-    6. *voilá*  🐱‍🏍
-  
+1. Copie y pegue:  `git clone https://github.com/AldaCL/Radio_jupyter`
+2. Diríjasé al directorio descargado con: `cd Radio_jupyter` 
+3. Inicialice el contenedor de *Docker* con `docker-compose up`
+4. Verá en la ventana, una dirección de red local que comienza con `http:\\127.0.0.1:8888:8888` seguido de un token, copia y pega todo en una ventana del navegador.
+5. Asegúrese  de  que los datos de coberturas y los datos de población se encuentran en su lugar y reinicié el *kernel* de la *Notebook* preferida.
+6. *voilá*  🐱‍🏍
+
