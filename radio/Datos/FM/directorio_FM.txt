@@ -1,0 +1,2 @@
+Coloque aquí los archivs de cobertura de las estaciones de FM en formato .csv preferentemente, o bien en .xlsx
+

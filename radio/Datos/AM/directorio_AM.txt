@@ -1,0 +1,2 @@
+Coloque aquí los archivos de cobertura de las estaciones de AM
+Preferentemente en formato .xlsx o bien en formato .xslx
