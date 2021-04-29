@@ -6,6 +6,7 @@ El primera instancia, se busca una aproximación enfocada en el impacto de pobla
 
 Estas *notebooks* harán uso de tecnicidades, que, para quién resulte interesante, serán expuestas a mayor detalle en documentos posteriores , tales como análisis de datos, algoritmos de optimización para visualización de datos, datos georreferenciados y detalles sobre el tratamiento de datos con *Python*.
 
+![alt text](https://github.com/AldaCL/radiobroadcast_data/blob/main/radio/Datos/results/mapa1.png)
 
 
 # Descarga, instalación y funcionamiento 🐱‍👤
@@ -33,4 +34,25 @@ Abra una ventana de *Windows PowerShell* en la ruta en la que deseas descargar e
  5. Principios de datos georreferenciados con *Geopandas*
  6. Principios técnicos sobre el tratamiento de datos con *Python*
  7. ***Caso de uso : Análisis de Must Carry/Must Offer (Repositorio y datos privados)***
+
+
+### 1. Análisis de datos de Radiodifusión Sonora en AM  y FM  <a name="radio"></a>
+
+ - **Datos requeridos**
+	 - Polígonos *.shp* de capa de estados de la República Mexicana, **INEGI**, 2010: [Descarga](https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=702825296520) (Estatal.shp)
+	 - Lista de Localidades de México, **INEGI**, 2010: [Descarga](https://www.inegi.org.mx/contenidos/programas/ccpv/2010/datosabiertos/iter_nal_2010_csv.zip ) (Localidades_2010.csv)
+	- Coberturas de radiodifusión sonora en AM y FM, **IFT**:  [Consulta CPCREL](http://mapasradiodifusion.ift.org.mx/CPCREL-web/consultaCoberturas/consultaCoberturas.xhtml;jsessionid=U-8eUGaEZNAYqrD8aTpGOYH0vn-6YGkZmI6KeQozd527haXDVzNQ!271094803?dswid=6870) (Coberturas.csv)
+	
+ - **Preparativos**
+	a. Coloque los respectivos datos con la siguiente estructura (Ya contenida en el repositorio) : 
+- **Datos**
+	- */Localidades_2010.csv*
+	- AM/*Coberturas AM .csv*
+	- FM/*Coberturas FM.csv*
+	- Geodata/*Estatal.shp*
+
+
+- **Previsualización**
+![alt text](https://github.com/AldaCL/radiobroadcast_data/blob/main/radio/Datos/results/preview.png)
+	
 
