@@ -6,7 +6,7 @@ El primera instancia, se busca una aproximación enfocada en el impacto de pobla
 
 Estas *notebooks* harán uso de tecnicidades, que, para quién resulte interesante, serán expuestas a mayor detalle en documentos posteriores , tales como análisis de datos, algoritmos de optimización para visualización de datos, datos georreferenciados y detalles sobre el tratamiento de datos con *Python*.
 
-![alt text](https://github.com/AldaCL/radiobroadcast_data/blob/main/radio/Datos/results/mapa1.png)
+![alt text](/radio/Datos/results/mapa1.png)
 
 
 # Descarga, instalación y funcionamiento 🐱‍👤
