@@ -1,0 +1,2 @@
+Coloque aquí los datos correspondientes a las capas del pais, utilice archivos .shp que puede descargar de 
+INEGI tal como se describe en la presentación.
