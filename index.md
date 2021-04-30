@@ -33,7 +33,7 @@ Abra una ventana de *Windows PowerShell* en la ruta en la que deseas descargar e
  4. Interpretación de datos en la dimensión de las telecomunicaciones y las audiencias. *¿Qué nos dicen?*
  5. Principios de datos georreferenciados con *Geopandas*
  6. Principios técnicos sobre el tratamiento de datos con *Python*
- 7. ***Caso de uso : Análisis de Must Carry/Must Offer (Repositorio y datos privados)***
+
 
 
 ### 1. Análisis de datos de Radiodifusión Sonora en AM  y FM  <a name="radio"></a>
