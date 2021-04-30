@@ -51,8 +51,5 @@ Abra una ventana de *Windows PowerShell* en la ruta en la que deseas descargar e
 	- FM/*Coberturas FM.csv*
 	- Geodata/*Estatal.shp*
 
-
-- **Previsualización**
-![alt text](https://github.com/AldaCL/radiobroadcast_data/blob/main/radio/Datos/results/preview.png)
 	
 
