@@ -50,6 +50,29 @@ Abra una ventana de *Windows PowerShell* en la ruta en la que deseas descargar e
 	- AM/*Coberturas AM .csv*
 	- FM/*Coberturas FM.csv*
 	- Geodata/*Estatal.shp*
-
 	
+- **Algunos resultados**
+**Cobertura por número de estaciones sintonizables en cada localidad**
+![mapa1](/radio/Datos/results/mapa1.png)
+**Localidades sin cobertura del servicio de Radiodifusión Sonora en AM**
+![mapa3](/radio/Datos/results/mapa3.png)
+
+**Cuando se replica el análisis para el servicio de Radiodifusión Sonora en FM, es posible observar el siguiente resultado **
+
+![mapa4](/radio/Datos/results/mapa4.png)
+**Es posible observar en  el mapa de localidades no atendidas por cada servicio, que existe un mayor número de localidades que no cuentan con el servicio de FM.**
+**Por otra parte, observamos que la distribución de colores que representan un mayor número de estaciones sintonizables (Es decir los colores más claros) se encuentra mayormente distribuida y concentrica en las estaciones de AM; mientras que en el servicio de FM, se presentan manchas en las ubicaciones de las ciudades o capitales de cada estado con un área menor, respondiendo a una mayor concentración demográfica.**
+* **Existen 357 estaciones de radio AM autorizadas, que no  brindan servicio a un total de 31610 localidades**
+* **Existen 1534 estaciones de radio FM autorizadas, que no brindan servicio a un total de 60643 localidades**
+
+* **El servicio de AM, cuenta con un número menor de estaciones autorizadas, sin embargo debido a las características de propagación en esas frecuencias, su cobertura es mayor, lo cual habilita a un mayor número de personas a sintornizar al menos una estación de radio.**
+* **Por otra parte, debido a la mayor cantidad de estaciones de FM, es posible decir que es más probable que las audiencias que tienen acceso al servicio de Radio FM, tengan acceso a al menos más de una estación de FM, lo cúal representa una mayor diversidad de contenidos para el público**
+
+Finalmente, en un ejercicio de desagregación por estado, se obtiene el siguiente mapa interactivo
+![mapa2](/radio/Datos/results/mapa2.png)
+
+![pastel](/radio/Datos/results/pastel.png)
+
+* **Los Estados ubicados en el centro del país cuentan con el mayor porcentaje de cobertura del servicio de radio (AM y FM) así como con una mayor cantidad de estaciones sintonizables, que a su vez coincide con la mayor densidad demográfica por km2, debido al tamaño de las entidades**
+* **Durango es el estado con menor penetración del servicio de Radio FM, a su vez, Campeche es el estado con menor porcentaje de penetración de radio AM**
 
