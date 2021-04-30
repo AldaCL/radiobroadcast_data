@@ -57,11 +57,11 @@ Abra una ventana de *Windows PowerShell* en la ruta en la que deseas descargar e
 **Localidades sin cobertura del servicio de Radiodifusión Sonora en AM**
 ![mapa3](/radio/Datos/results/mapa3.png)
 
-**Cuando se replica el análisis para el servicio de Radiodifusión Sonora en FM, es posible observar el siguiente resultado **
+Si se replica el análisis para el servicio de Radiodifusión Sonora en FM
 
 ![mapa4](/radio/Datos/results/mapa4.png)
-**Es posible observar en  el mapa de localidades no atendidas por cada servicio, que existe un mayor número de localidades que no cuentan con el servicio de FM.**
-**Por otra parte, observamos que la distribución de colores que representan un mayor número de estaciones sintonizables (Es decir los colores más claros) se encuentra mayormente distribuida y concentrica en las estaciones de AM; mientras que en el servicio de FM, se presentan manchas en las ubicaciones de las ciudades o capitales de cada estado con un área menor, respondiendo a una mayor concentración demográfica.**
+Es posible observar en  el mapa de localidades no atendidas por cada servicio, que existe un mayor número de localidades que no cuentan con el servicio de FM.**
+**Por otra parte, observamos que la distribución de colores que representan un mayor número de estaciones sintonizables (Es decir los colores más claros) se encuentra mayormente distribuida y concentrica en las estaciones de AM; mientras que en el servicio de FM, se presentan manchas en las ubicaciones de las ciudades o capitales de cada estado con un área menor, respondiendo a una mayor concentración demográfica.
 * **Existen 357 estaciones de radio AM autorizadas, que no  brindan servicio a un total de 31610 localidades**
 * **Existen 1534 estaciones de radio FM autorizadas, que no brindan servicio a un total de 60643 localidades**
 
